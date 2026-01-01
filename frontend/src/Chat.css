@@ -1,19 +1,14 @@
 
 .chats {
-    /* max-width: 800px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 2rem 1.5rem 6rem;
     overflow-y: auto;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    gap: 1.25rem; */
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 20px;
-    overflow-y: auto;
-    overflow-x: hidden;
+    gap: 1.25rem;
+
 }
 
 
@@ -31,9 +26,9 @@
     overflow-wrap: anywhere;
 }
 .userdiv{
-   /* display: flex;
+   display: flex;
     justify-content: flex-end;
-    margin-bottom: 12px; */
+   
      align-self: flex-end;   
     max-width: 70%;
     margin-bottom: 12px;
