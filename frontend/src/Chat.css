@@ -1,48 +1,4 @@
-/* 
 
-.chats {
-  max-width: 700px;
-  height: 100%;
-  margin: 0 auto;
-  padding: 1rem;
-  overflow-y: auto;
-}
-
-
-.userDiv {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 8px;
-  font-size: 0.9rem;
-}
-
-.gptDiv {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-bottom: 8px;
-  font-size: 0.9rem;
-}
-
-
-.userMessage {
-  background-color: #323232;
-  padding: 10px 14px;
-  border-radius: 14px;
-  max-width: 75%;
-  word-wrap: break-word;
-}
-
-
-.hljs {
-  border-radius: 14px !important;
-}
-
-
-pre {
-  white-space: pre-wrap;
-  word-break: break-word;
-} */
 .chats {
     max-width: 800px;
     margin: 0 auto;
@@ -54,7 +10,7 @@ pre {
     gap: 1.25rem;
 }
 
-/* USER MESSAGE */
+
 .userMessage {
     background-color: #323232;
     padding: 10px 20px;
@@ -64,12 +20,16 @@ pre {
     width: fit-content;
     line-height: 1.75;
 
-    /* 🔑 IMPORTANT */
+
     word-break: break-word;
     overflow-wrap: anywhere;
 }
+.userdiv{
+    display: flex;
+    right:0;
+}
 
-/* GPT MESSAGE */
+
 .gptDiv {
     max-width: 100%;
      text-align: left;
@@ -82,24 +42,23 @@ pre {
     line-height: 1.65;
      margin-bottom: 2.0rem;
 
-    /* 🔑 IMPORTANT */
+    
     word-break: break-word;
     overflow-wrap: anywhere;
 }
 
-/* CODE BLOCKS */
+
 pre {
     background-color: #1e1e1e;
     padding: 14px;
     border-radius: 10px;
 
-    /* 🔑 FIX HORIZONTAL SCROLL */
     white-space: pre-wrap;
     word-break: break-word;
-    overflow-x: auto; /* code can scroll horizontally */
+    overflow-x: auto; 
 }
 
-/* INLINE CODE */
+
 code {
     word-break: break-word;
     overflow-wrap: anywhere;
@@ -109,5 +68,16 @@ code {
     background: transparent !important;
     border-radius: 8px;
 }
+
+
+.hide-scrollbar {
+    scrollbar-width: none;      
+    -ms-overflow-style: none;  
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;              
+}
+
 
 
