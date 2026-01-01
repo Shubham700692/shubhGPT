@@ -20,6 +20,8 @@
     max-width: 500px;
     width: fit-content;
     line-height: 1.75;
+    display: flex;
+    justify-content: flex-end;
 
 
     word-break: break-word;
