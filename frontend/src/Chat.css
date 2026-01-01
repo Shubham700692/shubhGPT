@@ -25,8 +25,9 @@
     overflow-wrap: anywhere;
 }
 .userdiv{
-    display: flex;
-    right:0;
+   display: flex;
+    justify-content: flex-end;
+    margin-bottom: 12px;
 }
 
 
