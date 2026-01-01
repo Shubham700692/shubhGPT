@@ -16,25 +16,27 @@
     background-color: #323232;
     padding: 10px 20px;
     border-radius: 14px;
-    margin-left: 15rem;
+    margin-left: 23rem;
     max-width: 500px;
     width: fit-content;
     line-height: 1.75;
     display: flex;
     justify-content: flex-end;
+    align-self: flex-end; 
+    right:0;
 
 
     word-break: break-word;
     overflow-wrap: anywhere;
 }
-.userdiv{
+/* .userdiv{
    display: flex;
     justify-content: flex-end;
    
      align-self: flex-end;   
     max-width: 70%;
     margin-bottom: 12px;
-}
+} */
 
 
 .gptDiv {
@@ -84,6 +86,27 @@ code {
 
 .hide-scrollbar::-webkit-scrollbar {
     display: none;              
+}
+/* Width of scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+    background: #1e1e1e;   /* change this */
+    border-radius: 10px;
+}
+
+/* Scrollbar thumb (the moving part) */
+::-webkit-scrollbar-thumb {
+    background: #383838;      
+    border-radius: 10px;
+}
+
+/* Hover effect */
+::-webkit-scrollbar-thumb:hover {
+    background: #383838;
 }
 
 
