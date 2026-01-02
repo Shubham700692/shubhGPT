@@ -94,7 +94,7 @@ const handleLogout = () => {
     return (
         <div className="chatWindow">
             <div className="navbar">
-                <span>shubhGPT <i className="fa-solid fa-chevron-down"></i></span>
+                <span><b>shubhGPT</b><i className="fa-solid fa-chevron-down"></i></span>
                 <div className="userIconDiv" onClick={handleProfileClick}>
                     <span className="userIcon"><i className="fa-solid fa-user"></i></span>
                 </div>

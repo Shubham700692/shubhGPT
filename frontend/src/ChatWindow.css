@@ -21,6 +21,9 @@
 .navbar span {
     margin: 1rem 2rem;
 }
+.navbar span b{
+    font-size: 22px;
+}
 
 .userIconDiv {
     margin: 1rem 2rem;
@@ -60,7 +63,7 @@ input {
     border: none;
     background-color: rgba(255, 255, 255, 0.05);
     padding: 20px;
-    font-size: 0.8rem;
+    font-size: 1.0rem;
     border-radius: 14px;
     box-shadow: rgba(0, 0, 0, 0.05) 0 54px 55px,
                 rgba(0, 0, 0, 0.05) 0 -12px 30px,
